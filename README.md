@@ -1,4 +1,4 @@
-# IMG JPG * ZIP CODE IDENTIFIER
+# IMG JPG & ZIP CODE IDENTIFIER
 
 By: Quang "Neon" Le
 
@@ -6,7 +6,7 @@ Version: 1.0.0
 
 Date: 11/2/2019
 
-## Project Description
+## __Project Description__
 # Introduction  
   
     This project aims to create a portable Python tool that can
@@ -42,7 +42,7 @@ Date: 11/2/2019
     script for windows.
 
 
-## Setting Up
+## __Setting Up__
 # Requirements
 
     Programs        : Python3, Pip/brew package manager
