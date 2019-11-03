@@ -3,7 +3,7 @@ Img JPEG & Location identification - Test and Develop
 
 By : Quang "Neon" Le
 Start Date: 10/29/2019
-Last edit : 11/1/2019
+Last edit : 11/2/2019
 
 Project Description:
 Creating an application that can validate whether an image is JPG and return
