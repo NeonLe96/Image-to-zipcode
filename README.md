@@ -6,7 +6,7 @@ Version: 1.0.0
 
 Date: 11/2/2019
 
-## __Project Description__
+# __Project Description__
 #### Introduction  
   
     This project aims to create a portable Python tool that can
