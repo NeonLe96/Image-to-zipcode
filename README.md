@@ -111,6 +111,11 @@ Date: 11/2/2019
 
 - The hooks folder needs to be in the same directory as AppGUI.py when
 - compiling into one EXE
+
+- The shell script to automate install only works if you "chmod 755 <shellfile>"
+- also it needs to be run as source
+    chmod 755 install_ios.sh
+    source install_ios.sh
 ```
     
     pyinstaller often get install not in PATH, follow these commands to fix:
