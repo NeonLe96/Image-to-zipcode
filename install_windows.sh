@@ -13,4 +13,7 @@ pip install --upgrade --user google-cloud-vision
 pip install --upgrade --user pyinstaller
 pip install --upgrade  --user google-cloud-core
 
+pyinstaller --clean --onefile --additional-hooks-dir=./hooks AppGUI.py
+cp ./authen.json ./dist
+
 py AppGUI.py
