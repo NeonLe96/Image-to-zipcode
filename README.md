@@ -52,7 +52,7 @@ Date: 11/2/2019
     You can try the attached shell script for quick setup of the tools.
     
 #### Instructions:
-    
+
     WINDOWS USERS:    
         1. Install Python3 at https://www.python.org/downloads/
         
@@ -106,7 +106,8 @@ Date: 11/2/2019
 #### IMPORTANT NOTE:
     
 ```diff
-- text in red
+- The authen.json needs to be in the same directory as the application.
+- It is used to authenticate with Google Cloud Vision API.
 ```
     
     pyinstaller often get install not in PATH, follow these commands to fix:
