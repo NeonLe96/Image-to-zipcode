@@ -103,7 +103,11 @@ Date: 11/2/2019
     Or you can use it like a normal Python Script:
         python AppGUI.py
     
-#### NOTE:
+#### IMPORTANT NOTE:
+    
+    ```diff
+    - text in red
+    ```
     
     pyinstaller often get install not in PATH, follow these commands to fix:
         export APEND=$( find / -name pyinstaller)
