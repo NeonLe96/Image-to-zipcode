@@ -108,6 +108,9 @@ Date: 11/2/2019
 ```diff
 - The authen.json needs to be in the same directory as the application.
 - It is used to authenticate with Google Cloud Vision API.
+
+- The hooks folder needs to be in the same directory as AppGUI.py when
+- compiling into one EXE
 ```
     
     pyinstaller often get install not in PATH, follow these commands to fix:
