@@ -1,7 +1,9 @@
 # IMG JPG * ZIP CODE IDENTIFIER
 
 By: Quang "Neon" Le
+
 Version: 1.0.0
+
 Date: 11/2/2019
 
 ## Project Description
