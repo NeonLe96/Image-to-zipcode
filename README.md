@@ -105,9 +105,9 @@ Date: 11/2/2019
     
 #### IMPORTANT NOTE:
     
-    ```diff
-    - text in red
-    ```
+```diff
+- text in red
+```
     
     pyinstaller often get install not in PATH, follow these commands to fix:
         export APEND=$( find / -name pyinstaller)
