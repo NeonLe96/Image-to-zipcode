@@ -11,7 +11,7 @@ echo Pip3 will now setup required modules for python
 pip3 install --upgrade --user geopy
 pip3 install --upgrade --user google-cloud-vision
 pip3 install --upgrade --user pyinstaller
-pip install --upgrade  --user google-cloud-core
+pip3 install --upgrade  --user google-cloud-core
 
 echo Make sure pyinstaller is in path
 export APEND=$( find / -name pyinstaller)
