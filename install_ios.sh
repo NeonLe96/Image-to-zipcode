@@ -21,6 +21,12 @@ pyinstaller --clean --onefile --additional-hooks-dir=./hooks AppGUI.py
 
 $PYINST --clean --onefile --additional-hooks-dir=./hooks AppGUI.py
 
+
+#Naming conventions of tcl-tk and pyinstaller is messing up compiling into application
 cp ./authen.json ./dist
 
-echo Executable is ready at dist
+echo Naming conventions of tcl-tk and pyinstaller is messing up compiling into application
+echo Use normal AppGUI.py
+
+python3 AppGUI.py
+
