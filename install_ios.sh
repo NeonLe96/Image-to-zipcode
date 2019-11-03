@@ -14,12 +14,13 @@ pip3 install --upgrade --user google-cloud-vision
 pip3 install --upgrade --user pyinstaller
 pip3 install --upgrade  --user google-cloud-core
 
-echo Make sure pyinstaller is in path
-export APEND=$( find / -name pyinstaller)
-export APENDIR=$(dirname "${APEND}")
-export PATH=$PATH:$(dirname"${}")
+echo find Pyinstaller
+export PYINST=$( find / -name pyinstaller)
 
 pyinstaller --clean --onefile --additional-hooks-dir=./hooks AppGUI.py
+
+$PYINST --clean --onefile --additional-hooks-dir=./hooks AppGUI.py
+
 cp ./authen.json ./dist
 
 echo Executable is ready at dist
