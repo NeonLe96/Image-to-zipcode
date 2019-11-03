@@ -18,7 +18,7 @@ Date: 11/2/2019
     easy to use with fast image processing.
     
     The tool can take multiple image input and ensure return of zip code 
-    through the use of two location tools which are GoogleCloudPlatform
+    through the use of two Global location tools which are GoogleCloudPlatform
     and Geopy. User will also be given choices to export data to a CSV
     file as well. The Tool can also be compressed into one single EXE file
     through the setup shells
