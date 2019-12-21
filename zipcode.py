@@ -76,7 +76,7 @@ def ltt_to_zip_from_google(ltt_arr):
     URL = 'https://maps.googleapis.com/maps/api/geocode/json'
     payload = (
         ('latlng', str(ltt_arr[0]) +','+ str(ltt_arr[1])),
-        ('key', 'AIzaSyD7IbJQQdSbPocbM3tH9IyQe9lhK9HJ8jU')
+        ('key', 'APIKEY')
     )
     r= requests.get(URL, payload)
 
