@@ -32,6 +32,10 @@ Recent Update: 1/1/2020
     Additionally, despite using two image processing platform to get zip code
     from coordinates, the platforms database sometimes don't have information
     regarding zip code.
+    
+    There are some parts of the code that can be refactor as well by having
+    a more OOP approach instead.
+    
     The attached setup shellscript is also janky for Windows and its operation
     depends on how the user setup the env
 
