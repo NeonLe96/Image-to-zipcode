@@ -2,9 +2,10 @@
 
 By: Quang "Neon" Le
 
-Version: 1.0.0
+Version: 1.0.3
 
-Date: 11/2/2019
+Date Started: 11/2/2019
+Recent Update: 1/1/2020
 
 # __Project Description__
 #### Introduction  
